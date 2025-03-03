@@ -1,9 +1,9 @@
-import React from 'react'
+import LoginPage from "./pages/LoginPage";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <LoginPage />    
+  );
+};
 
-export default App
+export default App;
