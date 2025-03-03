@@ -1,4 +1,4 @@
-import FormLogin from "../components/Fragments/FormSignUp";
+import FormSignUp from "../components/Fragments/FormSignUp";
 import AuthLayout from "../components/Layouts/AuthLayout";
 
 const SignUpPage = () => {
@@ -13,7 +13,7 @@ const SignUpPage = () => {
         Nggak susah kok, kamu cuma tinggal masukin beberapa data aja terus
         langsung jadi deh!
       </AuthLayout.Description>
-      <FormLogin />
+      <FormSignUp />
     </AuthLayout>
   );
 };
