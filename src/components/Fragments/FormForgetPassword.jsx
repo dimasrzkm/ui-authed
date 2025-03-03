@@ -1,11 +1,18 @@
 import { Fragment } from "react";
 import InputForm from "../Elements/InputForm";
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 
 const FormForgetPassword = () => {
+  let navigate = useNavigate();
+
   return (
     <Fragment>
-      <form method="POST" action="/" className="flex flex-col gap-y-4">
+      <form
+        method="POST"
+        action="#"
+        className="flex flex-col gap-y-4"
+        onSubmit={(e) => (e.preventDefault(), navigate("/reset-password"))}
+      >
         <InputForm
           labelInput="Email"
           name="email"
