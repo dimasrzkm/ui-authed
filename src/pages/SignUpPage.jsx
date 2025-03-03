@@ -1,7 +1,7 @@
-import FormLogin from "../components/Fragments/FormLogin";
+import FormLogin from "../components/Fragments/FormSignUp";
 import AuthLayout from "../components/Layouts/AuthLayout";
 
-const LoginPage = () => {
+const SignUpPage = () => {
   return (
     <AuthLayout
       srcHeroImage="./images/bg-sign-up.svg"
@@ -18,4 +18,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default SignUpPage;

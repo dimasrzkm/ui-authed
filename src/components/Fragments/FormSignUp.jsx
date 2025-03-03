@@ -3,7 +3,7 @@ import InputForm from "../Elements/InputForm";
 import Input from "../Input";
 import Label from "../Label";
 
-const FormLogin = () => {
+const FormSignUp = () => {
   return (
     <Fragment>
       <form method="POST" action="#" className="flex flex-col gap-y-4">
@@ -41,4 +41,4 @@ const FormLogin = () => {
   );
 };
 
-export default FormLogin;
+export default FormSignUp;
