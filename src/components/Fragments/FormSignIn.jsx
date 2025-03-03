@@ -16,7 +16,7 @@ const FormSignIn = () => {
         />
         <div className="flex justify-between items-center -mb-3">
           <Label forWho="password">Kata Sandi</Label>
-          <Link to="/signup" className="text-[#4F46E5] font-semibold">
+          <Link to="/forget-password" className="text-[#4F46E5] font-semibold">
             Lupa Kata Sandi?
           </Link>
         </div>
